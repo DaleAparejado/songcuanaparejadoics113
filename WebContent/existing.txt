@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel='stylesheet' type='text/css' href='CSS.css'>
+<div class = "TopBar">
+<div class = "TopAbsol">
+<div class = "imginside"></div>
+<div class = "safety"></div>
+</div></div>
+<div class = "SideBar">
+
+</div>
+<a href = "index.html"><div class = "pls"></div></a>
+<a href = "about.html"><div class = "pls2"></div></a>
+<a href = "searchdoc.html"><div class = "pls3"></div></a>
+<a href = "form.html"><div class = "pls4"></div></a>
+<a href = "#"><div class = "pls5"></div></a>
+<a href = "#"><div class = "pls6"></div></a>
+</head>
+<body>
+<div class ="afterHeader">
+<H1>Search for your doctor's schedule</H1>
+<div class="wrap left rounded">
+    <input type="text" class="search left rounded" value="Check your doctor's schedule" />
+    <a href = "#"><button class="go left rounded"> <span></span></button></a>
+</div>
+</div>
+</body>
+</html>
