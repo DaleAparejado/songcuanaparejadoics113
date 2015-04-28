@@ -187,6 +187,7 @@ background-color:#eee;
 border-radius: 15px;
 height: 200px;
 width: 45%;
+float: right;
 top:-520px;
 left:650px;
 position:relative;
@@ -246,6 +247,7 @@ left:50px;
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     border-radius:5px;
+    
 }
 .wrap {
     position:relative;
@@ -253,7 +255,7 @@ left:50px;
     background:#f0f0f0;
     border:1px solid #ccc;
     overflow:hidden;
-	left:5%;
+	left:10%;
 }
 .search {
     width:360px;
@@ -267,8 +269,8 @@ left:50px;
     padding:3px 5px 2px;
     margin-left:8px;
     border:none;
-    background: -webkit-gradient(linear, left top, left bottom, from(#6c912e), to(#6c912e));
-    background: -moz-linear-gradient(top,  #6c912e,  #6c912e);
+    top: 5px;
+	height: 25px;
 }
 .go span {
     display:block;

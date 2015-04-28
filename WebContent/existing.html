@@ -3,6 +3,8 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<script src = 'js.js'>
+</script>
 <link rel='stylesheet' type='text/css' href='CSS.css'>
 <div class = "TopBar">
 <div class = "TopAbsol">
@@ -29,8 +31,10 @@ after confirming your pre-admission request.</p>
 <div class = "searchbar">
 <H1 id="welcome2">Insert your appointment number</H1>
 <div class="wrap left rounded">
-    <input type="text" class="search left rounded" placeholder="Insert your appointment number" />
-    <a href = "#"><button class="go left rounded"> <span></span></button></a>
+<form name = "CheckApp" action = "second.jsp" method = "post">
+    <input name="AppNo" type="text" class="search left rounded" placeholder="Insert your appointment number" />
+    <input class="go left rounded" type="submit" value="Submit">
+    </form>
 	</div>
 </div>
 </div>
